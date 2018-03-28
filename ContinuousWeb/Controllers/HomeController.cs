@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ContinousWeb.Models;
+using ContinuousWeb.Models;
 
-namespace ContinousWeb.Controllers
+namespace ContinuousWeb.Controllers
 {
     public class HomeController : Controller
     {
@@ -17,9 +17,10 @@ namespace ContinousWeb.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            throw new NotImplementedException();
+            //ViewData["Message"] = "Your application description page.";
 
-            return View();
+            //return View();
         }
 
         public IActionResult Contact()

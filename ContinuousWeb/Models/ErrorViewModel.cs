@@ -1,6 +1,6 @@
 using System;
 
-namespace ContinousWeb.Models
+namespace ContinuousWeb.Models
 {
     public class ErrorViewModel
     {
